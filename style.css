@@ -48,6 +48,11 @@ table {
 }
 
 /*-------------End of Reset------------*/
+
+body {
+	font-family: sans-serif;
+}
+
 h1 {
 	font-size: 2em;
 	padding: 10px;
@@ -68,14 +73,28 @@ h1 {
 }
 
 #submit {
-
+	padding: 10px;
+	margin-left: 10px;
 }
 
 #next {
+	padding: 10px;
 	display: none;
+
 }
 
 #feedback {
+	padding: 10px;
+	color: blue;
+	font-weight: bold;
+}
+
+#answerText {
+	padding: 10px;
+}
+
+#replay {
+	display: none;
 	padding: 10px;
 }
 
